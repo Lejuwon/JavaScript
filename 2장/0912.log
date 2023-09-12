@@ -1,0 +1,91 @@
+alert("hello~")
+undefined
+cons
+VM104:1 Uncaught ReferenceError: cons is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM104:1
+console.log("hello")
+VM170:1 hello
+undefined
+a=10
+10
+alert(a)
+undefined
+confirm("종료하시겠습니까?")
+
+
+
+
+false
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+confirm("end?")
+true
+prompt("what your name?")
+'Lee JuWon'
+prompt("종료하시겠습니까?(예/아니오)", "예")
+'예'
+name = "LeeJuWon"
+'LeeJuWon'
+console.log(name + " 환영"
+VM747:1 Uncaught SyntaxError: missing ) after argument list
+console.log(name + " 환영")
+VM755:1 LeeJuWon 환영
+undefined
+document.write("My name is " + name)
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1180:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1180:1
+let age =  21
+undefined
+console.log(name + "님 나이는" + age + "세 입니다.")
+VM1422:1 LeeJuWon님 나이는21세 입니다.
+undefined
+name = "이주원"
+'이주원'
+name = 이주원
+VM1550:1 Uncaught ReferenceError: 이주원 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1550:1
+console.log(`${name}님의 나이는 ${age}입니다.`)
+VM1674:1 이주원님의 나이는 21입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 202195036,
+    name : "이주원"
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 202195036, name: '이주원'}
+student.n
+undefined
+student.name
+'이주원'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "이주원",
+    [id] : 12345
+}
+undefined
+member
+{name: '이주원', Symbol(): 12345}
+member[id]
+12345
