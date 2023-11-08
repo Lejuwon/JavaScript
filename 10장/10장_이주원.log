@@ -1,0 +1,134 @@
+let str = "hello"
+undefined
+str.length
+5
+let str = "Good morning!";
+undefined
+let greeting = "안녕하세요?";
+undefined
+str.length
+13
+greeting.length
+6
+str.charAt(3)
+'d'
+str[5]
+'m'
+let str1 = "Good morning, everyone. Beautiful morning."
+undefined
+str1.indexOf("morning")
+5
+str1.indexOf("evening")
+-1
+firstIndex = str1.indexOf("morning")
+5
+str1.indexOf("morning", firstIndex+1)
+34
+str2 = "Hello, everyone."
+'Hello, everyone.'
+str2.startsWith("Hello")
+true
+str2.startsWith("hello")
+false
+str2.startsWith("He")
+true
+str2.startsWith("Hello, ev")
+true
+str2.startsWith("el", 1)
+true
+str2.startsWith("o", 4)
+true
+str2.endsWith("everyone.")
+true
+str2.endsWith("Everyone.")
+false
+str2.endsWith("one.")
+true
+str2.endsWith("lo, everyone.")
+true
+str2.endsWith("one", 16)
+false
+str2.endsWith("one.", 16)
+true
+str2.endsWith("lo", 5)
+true
+str2.indexOf("every") !== -1
+true
+str2.includes("every")
+true
+let str3 = " ab cd ef "
+undefined
+str3.trim()
+'ab cd ef'
+str3.trimStart()
+'ab cd ef '
+str3.trimEnd()
+' ab cd ef'
+let str4 = "Good morning"
+undefined
+let str4 = "Good morning."
+undefined
+str4.toUpperCase()
+'GOOD MORNING.'
+str4.toLowerCase()
+'good morning.'
+str4.substring(5)
+'morning.'
+str4.substring(0, 4)
+'Good'
+str4.slice(0, 4)
+'Good'
+str4.slice(-5, 12)
+'ning'
+str4.substring(-5, 12)
+'Good morning'
+str5 = "Hello everyone"
+'Hello everyone'
+array1 = str5.split(" ")
+(2) ['Hello', 'everyone']
+array2 = str5.split("")
+(14) ['H', 'e', 'l', 'l', 'o', ' ', 'e', 'v', 'e', 'r', 'y', 'o', 'n', 'e']
+let regexp = /\d{3}/
+undefined
+regexp.test
+ƒ test() { [native code] }
+regexp.test("Hello")
+false
+regexp.test("123")
+true
+let str = "ES2015 is powerful!"
+undefined
+str.match(/ES6/)
+null
+str.replace(/ES2015/, "ES6")
+'ES6 is powerful!'
+let str = "ES2015 is powerful!"
+undefined
+/es/.test(str)
+false
+/es/i.test(str)
+true
+str.match(/ES\d/)
+['ES2', index: 0, input: 'ES2015 is powerful!', groups: undefined]0: "ES2"groups: undefinedindex: 0input: "ES2015 is powerful!"length: 1[[Prototype]]: Array(0)
+str.match(/ES\d\d\d\d/)
+['ES2015', index: 0, input: 'ES2015 is powerful!', groups: undefined]0: "ES2015"groups: undefinedindex: 0input: "ES2015 is powerful!"length: 1[[Prototype]]: Array(0)
+let hello = "Hello, everyone."
+undefined
+/^H/.test(hello)
+true
+/^h/.test(hello)
+false
+/one.$/.test(hello)
+true
+/e.$/.test(hello)
+true
+/one$/.test(hello)
+false
+"ES2015".match(/[^0-9]/g)
+(2) ['E', 'S']
+let str2 = "ES2015(ES6) is powerful"
+undefined
+let regexp = /ES2015|ES6/
+undefined
+regexp.test(str2)
+true
